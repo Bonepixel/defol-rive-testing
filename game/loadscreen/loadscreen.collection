@@ -1,0 +1,43 @@
+name: "loadscreen"
+scale_along_z: 0
+embedded_instances {
+  id: "go"
+  children: "camera"
+  data: "components {\n"
+  "  id: \"initloadscreen\"\n"
+  "  component: \"/game/loadscreen/initloadscreen.script\"\n"
+  "}\n"
+  "components {\n"
+  "  id: \"testscriptforrive\"\n"
+  "  component: \"/game/loadscreen/testscriptforrive.script\"\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"rivemodel\"\n"
+  "  type: \"rivemodel\"\n"
+  "  data: \"scene: \\\"/game/loadscreen/testscene.rivescene\\\"\\n"
+  "default_animation: \\\"Timeline 1\\\"\\n"
+  "material: \\\"/defold-rive/assets/rivemodel.material\\\"\\n"
+  "default_state_machine: \\\"State Machine 1\\\"\\n"
+  "artboard: \\\"Artboard\\\"\\n"
+  "coordinate_system: COORDINATE_SYSTEM_RIVE\\n"
+  "\"\n"
+  "}\n"
+  ""
+}
+embedded_instances {
+  id: "camera"
+  data: "embedded_components {\n"
+  "  id: \"camera\"\n"
+  "  type: \"camera\"\n"
+  "  data: \"aspect_ratio: 1.0\\n"
+  "fov: 0.7854\\n"
+  "near_z: 0.1\\n"
+  "far_z: 1000.0\\n"
+  "auto_aspect_ratio: 1\\n"
+  "\"\n"
+  "}\n"
+  ""
+  position {
+    z: 115.0
+  }
+}

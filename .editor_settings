@@ -1,0 +1,85 @@
+{
+  :code {
+    :find {
+      :case-sensitive false
+      :term ""
+      :wrap true
+    }
+  }
+  :run {
+    :instance-count 1
+  }
+  :search-in-files {
+    :exts "playercol"
+    :include-libraries true
+    :term ""
+  }
+  :workflow {
+    :recent-files [
+      [
+        "/README.md"
+        :html
+      ]
+      [
+        "/assets/loadscreen/loadscreen.atlas"
+        :scene
+      ]
+      [
+        "/game/loadscreen.collection"
+        :scene
+      ]
+      [
+        "/game/loadscreen/initload.script"
+        :code
+      ]
+      [
+        "/game/game.collection"
+        :scene
+      ]
+      [
+        "/game/initbase.script"
+        :code
+      ]
+      [
+        "/game/loadscreen/testscene.rivescene"
+        :scene
+      ]
+      [
+        "/game/loadscreen/testscene.rivemodel"
+        :scene
+      ]
+      [
+        "/game/player.script"
+        :code
+      ]
+      [
+        "/game/loadscreen/initloadscreen.script"
+        :code
+      ]
+      [
+        "/game/basecollection.collection"
+        :scene
+      ]
+      [
+        "/game/loadscreen/loadscreen.collection"
+        :scene
+      ]
+      [
+        "/game/mainmenu.collection"
+        :scene
+      ]
+      [
+        "/game/loadscreen/testscriptforrive.script"
+        :code
+      ]
+      [
+        "/liveupdate.settings"
+        :cljfx-form-view
+      ]
+      [
+        "/game.project"
+        :cljfx-form-view
+      ]
+    ]
+  }
+}

@@ -1,0 +1,220 @@
+[ {
+  "path" : "/<AnonymousRoot>",
+  "hexDigest" : null,
+  "children" : [ "/game/basecollection.collectionc", "/defold-rive/lua/rive.renderc", "/input/game.input_bindingc", "/builtins/input/default.gamepadsc", "/builtins/render/default.display_profilesc", "/builtins/scripts/debugger.luac" ]
+}, {
+  "path" : "/game/basecollection.collectionc",
+  "hexDigest" : "118e6b638f01a528f6f7eebc345ca19cc43d1e0e",
+  "children" : [ "/_generated_6c5e59aeaef90a27.goc", "/_generated_7f2c61d8fa1830f1.goc", "/_generated_355d990b930535ce.goc", "/_generated_a9cff62062f962a7.goc" ]
+}, {
+  "path" : "/_generated_6c5e59aeaef90a27.goc",
+  "hexDigest" : "89a4ac571759a3702b6af8b7f7534b28cae2e77e",
+  "children" : [ "/monarch/screen_proxy.scriptc", "/_generated_8636fe375b2854a6.collectionproxyc" ]
+}, {
+  "path" : "/monarch/screen_proxy.scriptc",
+  "hexDigest" : "e1f53345999c605961966c90a356cd0f2fb0a5e3",
+  "children" : [ "/monarch/monarch.luac" ]
+}, {
+  "path" : "/monarch/monarch.luac",
+  "hexDigest" : "c0139671e91ad0691678a51d9498ef03f02597b3",
+  "children" : [ "/monarch/utils/callback_tracker.luac", "/monarch/utils/async.luac" ]
+}, {
+  "path" : "/monarch/utils/callback_tracker.luac",
+  "hexDigest" : "dea28b89943c92b6c2076ae63e9d5390ae8d6bbf",
+  "children" : [ ]
+}, {
+  "path" : "/monarch/utils/async.luac",
+  "hexDigest" : "d125bee46e8f3186fd4f32dd8f4b0aac911f8a8b",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_8636fe375b2854a6.collectionproxyc",
+  "hexDigest" : "18e42b637be6a9195dc54ec198406cba27bf33b6",
+  "nodeType" : "CollectionProxy",
+  "children" : [ "/game/game.collectionc" ]
+}, {
+  "path" : "/game/game.collectionc",
+  "hexDigest" : "4a28f46269cdbbc513e9afdb1a2a388151e8e304",
+  "children" : [ "/_generated_350fe5c027126918.goc", "/_generated_4923fe8512ac7c3f.goc" ]
+}, {
+  "path" : "/_generated_350fe5c027126918.goc",
+  "hexDigest" : "02163092e23a4edb8a98c1bd95f923b8cf345ee1",
+  "children" : [ "/game/level.tilemapc", "/_generated_6d10e0fca71c381a.collisionobjectc" ]
+}, {
+  "path" : "/game/level.tilemapc",
+  "hexDigest" : "6ff53eb71e57c2e6fe681cf89ccc16b5c1a4547c",
+  "children" : [ "/assets/level.t.texturesetc", "/builtins/materials/tile_map.materialc" ]
+}, {
+  "path" : "/assets/level.t.texturesetc",
+  "hexDigest" : "c934a10711b1da0df0c9d1ad70344c9cc2eae937",
+  "children" : [ "/assets/__level_tilesource.texturec" ]
+}, {
+  "path" : "/assets/__level_tilesource.texturec",
+  "hexDigest" : "a8a06b47dfb6418f3fa878da241c81db79c66adb",
+  "children" : [ ]
+}, {
+  "path" : "/builtins/materials/tile_map.materialc",
+  "hexDigest" : "59ba4f16fa285a30521fa4fc57a5efb83c52cdf3",
+  "children" : [ "/shader_-5550195794139652642.spc" ]
+}, {
+  "path" : "/shader_-5550195794139652642.spc",
+  "hexDigest" : "cfc3e8f8f6805c6756e9d772023d18f786dce0f9",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_6d10e0fca71c381a.collisionobjectc",
+  "hexDigest" : "259cc86b62cd396e8a4adf4c66443fedcb6a61b9",
+  "children" : [ "/game/level.tilemapc" ]
+}, {
+  "path" : "/_generated_4923fe8512ac7c3f.goc",
+  "hexDigest" : "6feaccd03ecb2abc94b7ec1507006d8e7bbd0a2e",
+  "children" : [ "/game/player.scriptc", "/_generated_ba49897259dae16.collisionobjectc", "/_generated_6bc91e701195acb1.spritec", "/_generated_c9999f18e32b03bc.camerac" ]
+}, {
+  "path" : "/game/player.scriptc",
+  "hexDigest" : "1dcff659efc497c27a03ecca82244e404f257788",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_ba49897259dae16.collisionobjectc",
+  "hexDigest" : "fd4193583777a935e7bb96abe524ef24f4afa86b",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_6bc91e701195acb1.spritec",
+  "hexDigest" : "12acc32ab3eeb68f54023d3925fd34135e8a6004",
+  "children" : [ "/builtins/materials/sprite.materialc", "/assets/player.a.texturesetc" ]
+}, {
+  "path" : "/builtins/materials/sprite.materialc",
+  "hexDigest" : "5fcb8d2abe470a02e6bf66ea5032b911c6109f57",
+  "children" : [ "/shader_-7170045909771754498.spc" ]
+}, {
+  "path" : "/shader_-7170045909771754498.spc",
+  "hexDigest" : "cfc3e8f8f6805c6756e9d772023d18f786dce0f9",
+  "children" : [ ]
+}, {
+  "path" : "/assets/player.a.texturesetc",
+  "hexDigest" : "546b153b412638c97f0b2ba70b13607c3cbd8915",
+  "children" : [ "/assets/player.texturec" ]
+}, {
+  "path" : "/assets/player.texturec",
+  "hexDigest" : "22007bdcd050fae5b9f4723bbfb25f6a2c0cc907",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_c9999f18e32b03bc.camerac",
+  "hexDigest" : "4440318ef415ea839ad030a4c33d6353b02f79a8",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_7f2c61d8fa1830f1.goc",
+  "hexDigest" : "81eabfd8c97c6cc4e584ea15d54bb914442d10bf",
+  "children" : [ "/game/initbase.scriptc" ]
+}, {
+  "path" : "/game/initbase.scriptc",
+  "hexDigest" : "e09a26396fa6ca832c18d5610b00ec6ff3e4b497",
+  "children" : [ "/monarch/monarch.luac" ]
+}, {
+  "path" : "/_generated_355d990b930535ce.goc",
+  "hexDigest" : "30a9f53a92b871d79c404ae0347126d5fef203b2",
+  "children" : [ "/monarch/screen_proxy.scriptc", "/_generated_c6eddf6944de6f75.collectionproxyc" ]
+}, {
+  "path" : "/_generated_c6eddf6944de6f75.collectionproxyc",
+  "hexDigest" : "66b999fe983f8f516d82b6eb68f34c59d0e9b768",
+  "nodeType" : "CollectionProxy",
+  "children" : [ "/game/loadscreen/loadscreen.collectionc" ]
+}, {
+  "path" : "/game/loadscreen/loadscreen.collectionc",
+  "hexDigest" : "912def77b4c9e9bbf4b77c5d19c0e51419528fe8",
+  "children" : [ "/_generated_fe9e159561bfd122.goc", "/_generated_92e32628516000a8.goc" ]
+}, {
+  "path" : "/_generated_fe9e159561bfd122.goc",
+  "hexDigest" : "2af21009ed88942c6fbc6fc8327f0c8c0da363ec",
+  "children" : [ "/game/loadscreen/initloadscreen.scriptc", "/game/loadscreen/testscriptforrive.scriptc", "/_generated_ee757201329a1cd4.rivemodelc" ]
+}, {
+  "path" : "/game/loadscreen/initloadscreen.scriptc",
+  "hexDigest" : "f7e9a4175ab5a12787e13b6fadced0b750a5e535",
+  "children" : [ "/monarch/monarch.luac" ]
+}, {
+  "path" : "/game/loadscreen/testscriptforrive.scriptc",
+  "hexDigest" : "9e5bdd039afd6d2446da43b68975f4ac028ef3f0",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_ee757201329a1cd4.rivemodelc",
+  "hexDigest" : "e900f4debce47d69e4869605bee478d91ccfff6c",
+  "children" : [ "/game/loadscreen/testscene.rivescenec", "/defold-rive/assets/rivemodel.materialc" ]
+}, {
+  "path" : "/game/loadscreen/testscene.rivescenec",
+  "hexDigest" : "072e6095eb613273fcdd6e25c071d5a47ee55423",
+  "children" : [ "/game/loadscreen/buttontest.rivc", "/defold-rive/assets/empty.a.texturesetc" ]
+}, {
+  "path" : "/game/loadscreen/buttontest.rivc",
+  "hexDigest" : "0427f4d6ce026341ee9a6de532989db3358d0e5f",
+  "children" : [ ]
+}, {
+  "path" : "/defold-rive/assets/empty.a.texturesetc",
+  "hexDigest" : "125f5219034e88479375827a134cfbe1a5912d56",
+  "children" : [ "/defold-rive/assets/empty.texturec" ]
+}, {
+  "path" : "/defold-rive/assets/empty.texturec",
+  "hexDigest" : "5f95b6d0f956391a709a66a20d9cde129e7255cc",
+  "children" : [ ]
+}, {
+  "path" : "/defold-rive/assets/rivemodel.materialc",
+  "hexDigest" : "9bfdecf752d9a318591dc40c6514faa42b0c55f6",
+  "children" : [ "/shader_-3396676959963561457.spc" ]
+}, {
+  "path" : "/shader_-3396676959963561457.spc",
+  "hexDigest" : "826a7511cdf9fe2433abfc1ad674bd5420051f57",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_92e32628516000a8.goc",
+  "hexDigest" : "7ba416d401a4b55ae7986076a4c1d390f35e8c7b",
+  "children" : [ "/_generated_277418cb51f9ba5f.camerac" ]
+}, {
+  "path" : "/_generated_277418cb51f9ba5f.camerac",
+  "hexDigest" : "31efa8630c0ddfe1c42ef49de04b0138eee5c162",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_a9cff62062f962a7.goc",
+  "hexDigest" : "af268c8ef4a8387a509db4c70bd01e5635e70429",
+  "children" : [ "/monarch/screen_proxy.scriptc", "/_generated_c0deaa3ce9e2f1dd.collectionproxyc" ]
+}, {
+  "path" : "/_generated_c0deaa3ce9e2f1dd.collectionproxyc",
+  "hexDigest" : "362b512157ad8c144fa627a185602d34314ecde5",
+  "nodeType" : "CollectionProxy",
+  "children" : [ "/game/mainmenu.collectionc" ]
+}, {
+  "path" : "/game/mainmenu.collectionc",
+  "hexDigest" : "f719a38e6cc0f2510c5e79ea759d33d937649526",
+  "children" : [ ]
+}, {
+  "path" : "/defold-rive/lua/rive.renderc",
+  "hexDigest" : "df2615f868bcf050d493b675e79eed5066725e21",
+  "children" : [ "/defold-rive/lua/rive.render_scriptc" ]
+}, {
+  "path" : "/defold-rive/lua/rive.render_scriptc",
+  "hexDigest" : "52a388f27932808917fd039e3f387c1155a5ea11",
+  "children" : [ ]
+}, {
+  "path" : "/input/game.input_bindingc",
+  "hexDigest" : "6d062cf59e73c16778fbef75880b70953780d028",
+  "children" : [ ]
+}, {
+  "path" : "/builtins/input/default.gamepadsc",
+  "hexDigest" : "2b7c86b98f072a375e716f6698608eb34a88ae61",
+  "children" : [ ]
+}, {
+  "path" : "/builtins/render/default.display_profilesc",
+  "hexDigest" : "4187e11a10b0dd0d7f1b34d3ae3c0e9632dc69fd",
+  "children" : [ ]
+}, {
+  "path" : "/builtins/scripts/debugger.luac",
+  "hexDigest" : "da795e4cf4bca06179060d0ad617ea216073df35",
+  "children" : [ "/builtins/scripts/edn.luac", "/builtins/scripts/mobdebug.luac" ]
+}, {
+  "path" : "/builtins/scripts/edn.luac",
+  "hexDigest" : "a257a3d28b4ccbdd0cee82951b03bb85d67fac4a",
+  "children" : [ ]
+}, {
+  "path" : "/builtins/scripts/mobdebug.luac",
+  "hexDigest" : "8db838bbd616a8f07ee8c5bedffba7231c4279a1",
+  "children" : [ "/builtins/scripts/socket.luac", "/builtins/scripts/edn.luac" ]
+}, {
+  "path" : "/builtins/scripts/socket.luac",
+  "hexDigest" : "57b9b27c9818923274f4f4ff535b4981e635ef05",
+  "children" : [ ]
+} ]

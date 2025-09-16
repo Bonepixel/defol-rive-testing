@@ -1,0 +1,15 @@
+{
+  "bob_arguments" : {
+    "sha1" : "1aafd0a262ff40214ed7f51302d92fa587c607ef",
+    "version" : "1.10.4",
+    "timestamp" : "2025-08-04 12:05:46"
+  },
+  "defold_sdk" : "1aafd0a262ff40214ed7f51302d92fa587c607ef",
+  "dependencies" : [ {
+    "link" : "https://github.com/defold/extension-rive/archive/refs/heads/main.zip",
+    "md5" : "F28305E11EFFEE50207376B0110E08D6"
+  }, {
+    "link" : "https://github.com/britzl/monarch/archive/master.zip",
+    "md5" : "7AB3569065B8AC29C32DACCDFB84EA33"
+  } ]
+}

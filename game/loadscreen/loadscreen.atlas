@@ -1,0 +1,4 @@
+images {
+  image: "/game/loadscreen/AlbedoBase_XL_beautiful_fantasy_landscape_with_a_castle_orcs_w_0.jpg"
+}
+extrude_borders: 2

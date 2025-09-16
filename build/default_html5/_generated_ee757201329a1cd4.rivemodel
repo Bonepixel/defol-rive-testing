@@ -1,0 +1,6 @@
+scene: "/game/loadscreen/testscene.rivescene"
+default_animation: "Timeline 1"
+material: "/defold-rive/assets/rivemodel.material"
+default_state_machine: "State Machine 1"
+artboard: "Artboard"
+coordinate_system: COORDINATE_SYSTEM_RIVE

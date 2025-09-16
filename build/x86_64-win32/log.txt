@@ -1,0 +1,527 @@
+/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//ext/bin/x86_64-linux/protoc --plugin=protoc-gen-ddf=/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//bin/ddfc_cxx --ddf_out=/tmp/job11102295337371447311/build/defold-rive -Iupload/defold-rive/include/win32/ -Iupload/defold-rive/include/ -Ibuild/defold-rive/ -Iupload/ -I/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//share/proto -I/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//ext/include upload/defold-rive/commonsrc/rive_ddf.proto
+clang++ -DDLIB_LOG_DOMAIN="RIVEEXT" -DDDF_EXPOSE_DESCRIPTORS -DDM_PLATFORM_WINDOWS -D_CRT_SECURE_NO_WARNINGS -D_CRT_USE_BUILTIN_OFFSETOF -D_WINSOCK_DEPRECATED_NO_WARNINGS -D__STDC_LIMIT_MACROS -DWINVER=0x0600 -DWIN32 -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -DDM_RIVE_USE_OPENGL -DRIVE_WINDOWS -DRIVE_DESKTOP_GL -target x86_64-pc-win32-msvc -m64 -O2 -g -gcodeview -Wall -Werror=format -fvisibility=hidden -nostdinc++ -fno-exceptions -std=c++17 -fno-rtti -nostdinc++ -isystem /usr/lib/llvm-17/lib/clang/17/include -isystem /opt/platformsdk/Win32/MicrosoftVisualStudio2022/VC/Tools/MSVC/14.37.32822/include -isystem /opt/platformsdk/Win32/MicrosoftVisualStudio2022/VC/Tools/MSVC/14.37.32822/atlmfc/include -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/ucrt -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/winrt -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/um -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/shared -Iupload/defold-rive/include/win32/ -Iupload/defold-rive/include/ -Ibuild/defold-rive/ -Iupload/ -I/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//include -I/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include -I/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//ext/include upload/defold-rive/commonsrc/atlas.cpp -c -o build/atlas.cpp_0.o
+clang++ -DDLIB_LOG_DOMAIN="RIVEEXT" -DDDF_EXPOSE_DESCRIPTORS -DDM_PLATFORM_WINDOWS -D_CRT_SECURE_NO_WARNINGS -D_CRT_USE_BUILTIN_OFFSETOF -D_WINSOCK_DEPRECATED_NO_WARNINGS -D__STDC_LIMIT_MACROS -DWINVER=0x0600 -DWIN32 -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -DDM_RIVE_USE_OPENGL -DRIVE_WINDOWS -DRIVE_DESKTOP_GL -target x86_64-pc-win32-msvc -m64 -O2 -g -gcodeview -Wall -Werror=format -fvisibility=hidden -nostdinc++ -fno-exceptions -std=c++17 -fno-rtti -nostdinc++ -isystem /usr/lib/llvm-17/lib/clang/17/include -isystem /opt/platformsdk/Win32/MicrosoftVisualStudio2022/VC/Tools/MSVC/14.37.32822/include -isystem /opt/platformsdk/Win32/MicrosoftVisualStudio2022/VC/Tools/MSVC/14.37.32822/atlmfc/include -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/ucrt -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/winrt -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/um -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/shared -Iupload/defold-rive/include/win32/ -Iupload/defold-rive/include/ -Ibuild/defold-rive/ -Iupload/ -I/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//include -I/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include -I/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//ext/include upload/defold-rive/commonsrc/bones.cpp -c -o build/bones.cpp_1.o
+clang++ -DDLIB_LOG_DOMAIN="RIVEEXT" -DDDF_EXPOSE_DESCRIPTORS -DDM_PLATFORM_WINDOWS -D_CRT_SECURE_NO_WARNINGS -D_CRT_USE_BUILTIN_OFFSETOF -D_WINSOCK_DEPRECATED_NO_WARNINGS -D__STDC_LIMIT_MACROS -DWINVER=0x0600 -DWIN32 -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -DDM_RIVE_USE_OPENGL -DRIVE_WINDOWS -DRIVE_DESKTOP_GL -target x86_64-pc-win32-msvc -m64 -O2 -g -gcodeview -Wall -Werror=format -fvisibility=hidden -nostdinc++ -fno-exceptions -std=c++17 -fno-rtti -nostdinc++ -isystem /usr/lib/llvm-17/lib/clang/17/include -isystem /opt/platformsdk/Win32/MicrosoftVisualStudio2022/VC/Tools/MSVC/14.37.32822/include -isystem /opt/platformsdk/Win32/MicrosoftVisualStudio2022/VC/Tools/MSVC/14.37.32822/atlmfc/include -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/ucrt -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/winrt -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/um -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/shared -Iupload/defold-rive/include/win32/ -Iupload/defold-rive/include/ -Ibuild/defold-rive/ -Iupload/ -I/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//include -I/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include -I/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//ext/include upload/defold-rive/commonsrc/factory.cpp -c -o build/factory.cpp_2.o
+clang++ -DDLIB_LOG_DOMAIN="RIVEEXT" -DDDF_EXPOSE_DESCRIPTORS -DDM_PLATFORM_WINDOWS -D_CRT_SECURE_NO_WARNINGS -D_CRT_USE_BUILTIN_OFFSETOF -D_WINSOCK_DEPRECATED_NO_WARNINGS -D__STDC_LIMIT_MACROS -DWINVER=0x0600 -DWIN32 -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -DDM_RIVE_USE_OPENGL -DRIVE_WINDOWS -DRIVE_DESKTOP_GL -target x86_64-pc-win32-msvc -m64 -O2 -g -gcodeview -Wall -Werror=format -fvisibility=hidden -nostdinc++ -fno-exceptions -std=c++17 -fno-rtti -nostdinc++ -isystem /usr/lib/llvm-17/lib/clang/17/include -isystem /opt/platformsdk/Win32/MicrosoftVisualStudio2022/VC/Tools/MSVC/14.37.32822/include -isystem /opt/platformsdk/Win32/MicrosoftVisualStudio2022/VC/Tools/MSVC/14.37.32822/atlmfc/include -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/ucrt -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/winrt -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/um -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/shared -Iupload/defold-rive/include/win32/ -Iupload/defold-rive/include/ -Ibuild/defold-rive/ -Iupload/ -I/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//include -I/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include -I/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//ext/include upload/defold-rive/commonsrc/tess_renderer.cpp -c -o build/tess_renderer.cpp_3.o
+clang++ -DDLIB_LOG_DOMAIN="RIVEEXT" -DDDF_EXPOSE_DESCRIPTORS -DDM_PLATFORM_WINDOWS -D_CRT_SECURE_NO_WARNINGS -D_CRT_USE_BUILTIN_OFFSETOF -D_WINSOCK_DEPRECATED_NO_WARNINGS -D__STDC_LIMIT_MACROS -DWINVER=0x0600 -DWIN32 -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -DDM_RIVE_USE_OPENGL -DRIVE_WINDOWS -DRIVE_DESKTOP_GL -target x86_64-pc-win32-msvc -m64 -O2 -g -gcodeview -Wall -Werror=format -fvisibility=hidden -nostdinc++ -fno-exceptions -std=c++17 -fno-rtti -nostdinc++ -isystem /usr/lib/llvm-17/lib/clang/17/include -isystem /opt/platformsdk/Win32/MicrosoftVisualStudio2022/VC/Tools/MSVC/14.37.32822/include -isystem /opt/platformsdk/Win32/MicrosoftVisualStudio2022/VC/Tools/MSVC/14.37.32822/atlmfc/include -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/ucrt -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/winrt -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/um -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/shared -Iupload/defold-rive/include/win32/ -Iupload/defold-rive/include/ -Ibuild/defold-rive/ -Iupload/ -I/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//include -I/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include -I/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//ext/include upload/defold-rive/commonsrc/vertices.cpp -c -o build/vertices.cpp_4.o
+upload/defold-rive/commonsrc/atlas.cpp:240:7: warning: field 'm_Factory' will be initialized after field 'm_RiveRenderContext' [-Wreorder-ctor]
+  240 |     : m_Factory(factory)
+      |       ^~~~~~~~~~~~~~~~~~
+      |       m_RiveRenderContext(context)
+  241 |     , m_RiveRenderContext(context)
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |       m_Factory(factory)
+upload/defold-rive/commonsrc/tess_renderer.cpp:531:28: warning: unused variable 'image' [-Wunused-variable]
+  531 |         DefoldRenderImage* image = (DefoldRenderImage*)_image;
+      |                            ^~~~~
+In file included from upload/defold-rive/commonsrc/atlas.cpp:13:
+In file included from upload/defold-rive/include/common/atlas.h:24:
+In file included from upload/defold-rive/include/defold/renderer.h:20:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/graphics/graphics.h:20:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//include/graphics/graphics_ddf.h:25:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//include/ddf/ddf_math.h:26:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/dlib/vmath.h:18:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/vectormath/cpp/vectormath_aos.h:40:
+/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/vectormath/cpp/../scalar/cpp/vectormath_aos.h:63:11: warning: private field 'd' is not used [-Wunused-private-field]
+   63 |     float d;
+      |           ^
+/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/vectormath/cpp/../scalar/cpp/vectormath_aos.h:607:11: warning: private field 'd' is not used [-Wunused-private-field]
+  607 |     float d;
+      |           ^
+upload/defold-rive/commonsrc/tess_renderer.cpp:411:17: warning: unused function 'print_mat2d' [-Wunused-function]
+  411 |     static void print_mat2d(const rive::Mat2D& m)
+      |                 ^~~~~~~~~~~
+In file included from upload/defold-rive/commonsrc/tess_renderer.cpp:1:
+In file included from upload/defold-rive/include/common/atlas.h:24:
+In file included from upload/defold-rive/include/defold/renderer.h:20:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/graphics/graphics.h:20:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//include/graphics/graphics_ddf.h:25:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//include/ddf/ddf_math.h:26:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/dlib/vmath.h:18:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/vectormath/cpp/vectormath_aos.h:40:
+/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/vectormath/cpp/../scalar/cpp/vectormath_aos.h:63:11: warning: private field 'd' is not used [-Wunused-private-field]
+   63 |     float d;
+      |           ^
+/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/vectormath/cpp/../scalar/cpp/vectormath_aos.h:607:11: warning: private field 'd' is not used [-Wunused-private-field]
+  607 |     float d;
+      |           ^
+3 warnings generated.
+clang++ -DDLIB_LOG_DOMAIN="RIVEEXT" -DDDF_EXPOSE_DESCRIPTORS -DDM_PLATFORM_WINDOWS -D_CRT_SECURE_NO_WARNINGS -D_CRT_USE_BUILTIN_OFFSETOF -D_WINSOCK_DEPRECATED_NO_WARNINGS -D__STDC_LIMIT_MACROS -DWINVER=0x0600 -DWIN32 -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -DDM_RIVE_USE_OPENGL -DRIVE_WINDOWS -DRIVE_DESKTOP_GL -target x86_64-pc-win32-msvc -m64 -O2 -g -gcodeview -Wall -Werror=format -fvisibility=hidden -nostdinc++ -fno-exceptions -std=c++17 -fno-rtti -nostdinc++ -isystem /usr/lib/llvm-17/lib/clang/17/include -isystem /opt/platformsdk/Win32/MicrosoftVisualStudio2022/VC/Tools/MSVC/14.37.32822/include -isystem /opt/platformsdk/Win32/MicrosoftVisualStudio2022/VC/Tools/MSVC/14.37.32822/atlmfc/include -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/ucrt -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/winrt -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/um -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/shared -Iupload/defold-rive/include/win32/ -Iupload/defold-rive/include/ -Ibuild/defold-rive/ -Iupload/ -I/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//include -I/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include -I/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//ext/include upload/defold-rive/src/comp_rive.cpp -c -o build/comp_rive.cpp_5.o
+clang++ -DDLIB_LOG_DOMAIN="RIVEEXT" -DDDF_EXPOSE_DESCRIPTORS -DDM_PLATFORM_WINDOWS -D_CRT_SECURE_NO_WARNINGS -D_CRT_USE_BUILTIN_OFFSETOF -D_WINSOCK_DEPRECATED_NO_WARNINGS -D__STDC_LIMIT_MACROS -DWINVER=0x0600 -DWIN32 -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -DDM_RIVE_USE_OPENGL -DRIVE_WINDOWS -DRIVE_DESKTOP_GL -target x86_64-pc-win32-msvc -m64 -O2 -g -gcodeview -Wall -Werror=format -fvisibility=hidden -nostdinc++ -fno-exceptions -std=c++17 -fno-rtti -nostdinc++ -isystem /usr/lib/llvm-17/lib/clang/17/include -isystem /opt/platformsdk/Win32/MicrosoftVisualStudio2022/VC/Tools/MSVC/14.37.32822/include -isystem /opt/platformsdk/Win32/MicrosoftVisualStudio2022/VC/Tools/MSVC/14.37.32822/atlmfc/include -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/ucrt -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/winrt -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/um -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/shared -Iupload/defold-rive/include/win32/ -Iupload/defold-rive/include/ -Ibuild/defold-rive/ -Iupload/ -I/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//include -I/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include -I/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//ext/include upload/defold-rive/src/comp_rive_databinding.cpp -c -o build/comp_rive_databinding.cpp_6.o
+upload/defold-rive/commonsrc/vertices.cpp:71:14: warning: unused variable 'tc_count' [-Wunused-variable]
+   71 |     uint32_t tc_count = draw_desc.m_TexCoordsCount;
+      |              ^~~~~~~~
+In file included from upload/defold-rive/commonsrc/vertices.cpp:7:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/dlib/vmath.h:18:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/vectormath/cpp/vectormath_aos.h:40:
+/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/vectormath/cpp/../scalar/cpp/vectormath_aos.h:63:11: warning: private field 'd' is not used [-Wunused-private-field]
+   63 |     float d;
+      |           ^
+/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/vectormath/cpp/../scalar/cpp/vectormath_aos.h:607:11: warning: private field 'd' is not used [-Wunused-private-field]
+  607 |     float d;
+      |           ^
+3 warnings generated.
+clang++ -DDLIB_LOG_DOMAIN="RIVEEXT" -DDDF_EXPOSE_DESCRIPTORS -DDM_PLATFORM_WINDOWS -D_CRT_SECURE_NO_WARNINGS -D_CRT_USE_BUILTIN_OFFSETOF -D_WINSOCK_DEPRECATED_NO_WARNINGS -D__STDC_LIMIT_MACROS -DWINVER=0x0600 -DWIN32 -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -DDM_RIVE_USE_OPENGL -DRIVE_WINDOWS -DRIVE_DESKTOP_GL -target x86_64-pc-win32-msvc -m64 -O2 -g -gcodeview -Wall -Werror=format -fvisibility=hidden -nostdinc++ -fno-exceptions -std=c++17 -fno-rtti -nostdinc++ -isystem /usr/lib/llvm-17/lib/clang/17/include -isystem /opt/platformsdk/Win32/MicrosoftVisualStudio2022/VC/Tools/MSVC/14.37.32822/include -isystem /opt/platformsdk/Win32/MicrosoftVisualStudio2022/VC/Tools/MSVC/14.37.32822/atlmfc/include -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/ucrt -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/winrt -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/um -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/shared -Iupload/defold-rive/include/win32/ -Iupload/defold-rive/include/ -Ibuild/defold-rive/ -Iupload/ -I/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//include -I/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include -I/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//ext/include upload/defold-rive/src/comp_rive_statemachine.cpp -c -o build/comp_rive_statemachine.cpp_7.o
+4 warnings generated.
+clang++ -DDLIB_LOG_DOMAIN="RIVEEXT" -DDDF_EXPOSE_DESCRIPTORS -DDM_PLATFORM_WINDOWS -D_CRT_SECURE_NO_WARNINGS -D_CRT_USE_BUILTIN_OFFSETOF -D_WINSOCK_DEPRECATED_NO_WARNINGS -D__STDC_LIMIT_MACROS -DWINVER=0x0600 -DWIN32 -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -DDM_RIVE_USE_OPENGL -DRIVE_WINDOWS -DRIVE_DESKTOP_GL -target x86_64-pc-win32-msvc -m64 -O2 -g -gcodeview -Wall -Werror=format -fvisibility=hidden -nostdinc++ -fno-exceptions -std=c++17 -fno-rtti -nostdinc++ -isystem /usr/lib/llvm-17/lib/clang/17/include -isystem /opt/platformsdk/Win32/MicrosoftVisualStudio2022/VC/Tools/MSVC/14.37.32822/include -isystem /opt/platformsdk/Win32/MicrosoftVisualStudio2022/VC/Tools/MSVC/14.37.32822/atlmfc/include -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/ucrt -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/winrt -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/um -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/shared -Iupload/defold-rive/include/win32/ -Iupload/defold-rive/include/ -Ibuild/defold-rive/ -Iupload/ -I/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//include -I/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include -I/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//ext/include upload/defold-rive/src/extension.cpp -c -o build/extension.cpp_8.o
+upload/defold-rive/src/comp_rive.cpp:723:40: warning: unused variable 'callback' [-Wunused-variable]
+  723 |             dmScript::LuaCallbackInfo* callback = component->m_Callback;
+      |                                        ^~~~~~~~
+upload/defold-rive/src/comp_rive.cpp:826:24: warning: unused variable 'artboard_bounds' [-Wunused-variable]
+  826 |             rive::AABB artboard_bounds  = artboard->bounds();
+      |                        ^~~~~~~~~~~~~~~
+upload/defold-rive/src/comp_rive.cpp:1374:25: warning: unused variable 'go_pos' [-Wunused-variable]
+ 1374 |         dmVMath::Point3 go_pos = dmGameObject::GetPosition(component->m_Instance);
+      |                         ^~~~~~
+upload/defold-rive/src/comp_rive.cpp:452:17: warning: unused function 'GetBlendFactorsFromBlendMode' [-Wunused-function]
+  452 |     static void GetBlendFactorsFromBlendMode(dmRiveDDF::RiveModelDesc::BlendMode blend_mode, dmGraphics::BlendFactor* src, dmGraphics::BlendFactor* dst)
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from upload/defold-rive/src/comp_rive.cpp:34:
+In file included from upload/defold-rive/src/comp_rive.h:17:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/script.h:18:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/script/script.h:23:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/dlib/vmath.h:18:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/vectormath/cpp/vectormath_aos.h:40:
+/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/vectormath/cpp/../scalar/cpp/vectormath_aos.h:63:11: warning: private field 'd' is not used [-Wunused-private-field]
+   63 |     float d;
+      |           ^
+/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/vectormath/cpp/../scalar/cpp/vectormath_aos.h:607:11: warning: private field 'd' is not used [-Wunused-private-field]
+  607 |     float d;
+      |           ^
+In file included from upload/defold-rive/src/comp_rive_statemachine.cpp:15:
+In file included from upload/defold-rive/src/comp_rive.h:17:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/script.h:18:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/script/script.h:23:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/dlib/vmath.h:18:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/vectormath/cpp/vectormath_aos.h:40:
+/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/vectormath/cpp/../scalar/cpp/vectormath_aos.h:63:11: warning: private field 'd' is not used [-Wunused-private-field]
+   63 |     float d;
+      |           ^
+/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/vectormath/cpp/../scalar/cpp/vectormath_aos.h:607:11: warning: private field 'd' is not used [-Wunused-private-field]
+  607 |     float d;
+      |           ^
+In file included from upload/defold-rive/src/comp_rive_databinding.cpp:17:
+In file included from upload/defold-rive/src/comp_rive.h:17:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/script.h:18:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/script/script.h:23:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/dlib/vmath.h:18:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/vectormath/cpp/vectormath_aos.h:40:
+/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/vectormath/cpp/../scalar/cpp/vectormath_aos.h:63:11: warning: private field 'd' is not used [-Wunused-private-field]
+   63 |     float d;
+      |           ^
+/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/vectormath/cpp/../scalar/cpp/vectormath_aos.h:607:11: warning: private field 'd' is not used [-Wunused-private-field]
+  607 |     float d;
+      |           ^
+2 warnings generated.
+clang++ -DDLIB_LOG_DOMAIN="RIVEEXT" -DDDF_EXPOSE_DESCRIPTORS -DDM_PLATFORM_WINDOWS -D_CRT_SECURE_NO_WARNINGS -D_CRT_USE_BUILTIN_OFFSETOF -D_WINSOCK_DEPRECATED_NO_WARNINGS -D__STDC_LIMIT_MACROS -DWINVER=0x0600 -DWIN32 -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -DDM_RIVE_USE_OPENGL -DRIVE_WINDOWS -DRIVE_DESKTOP_GL -target x86_64-pc-win32-msvc -m64 -O2 -g -gcodeview -Wall -Werror=format -fvisibility=hidden -nostdinc++ -fno-exceptions -std=c++17 -fno-rtti -nostdinc++ -isystem /usr/lib/llvm-17/lib/clang/17/include -isystem /opt/platformsdk/Win32/MicrosoftVisualStudio2022/VC/Tools/MSVC/14.37.32822/include -isystem /opt/platformsdk/Win32/MicrosoftVisualStudio2022/VC/Tools/MSVC/14.37.32822/atlmfc/include -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/ucrt -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/winrt -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/um -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/shared -Iupload/defold-rive/include/win32/ -Iupload/defold-rive/include/ -Ibuild/defold-rive/ -Iupload/ -I/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//include -I/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include -I/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//ext/include upload/defold-rive/src/font.cpp -c -o build/font.cpp_9.o
+In file included from upload/defold-rive/src/extension.cpp:6:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/sdk.h:19:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/engine/extension.h:20:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/engine/extension.hpp:21:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/gameobject/gameobject.h:23:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/dlib/vmath.h:18:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/vectormath/cpp/vectormath_aos.h:40:
+/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/vectormath/cpp/../scalar/cpp/vectormath_aos.h:63:11: warning: private field 'd' is not used [-Wunused-private-field]
+   63 |     float d;
+      |           ^
+/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/vectormath/cpp/../scalar/cpp/vectormath_aos.h:607:11: warning: private field 'd' is not used [-Wunused-private-field]
+  607 |     float d;
+      |           ^
+2 warnings generated.
+clang++ -DDLIB_LOG_DOMAIN="RIVEEXT" -DDDF_EXPOSE_DESCRIPTORS -DDM_PLATFORM_WINDOWS -D_CRT_SECURE_NO_WARNINGS -D_CRT_USE_BUILTIN_OFFSETOF -D_WINSOCK_DEPRECATED_NO_WARNINGS -D__STDC_LIMIT_MACROS -DWINVER=0x0600 -DWIN32 -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -DDM_RIVE_USE_OPENGL -DRIVE_WINDOWS -DRIVE_DESKTOP_GL -target x86_64-pc-win32-msvc -m64 -O2 -g -gcodeview -Wall -Werror=format -fvisibility=hidden -nostdinc++ -fno-exceptions -std=c++17 -fno-rtti -nostdinc++ -isystem /usr/lib/llvm-17/lib/clang/17/include -isystem /opt/platformsdk/Win32/MicrosoftVisualStudio2022/VC/Tools/MSVC/14.37.32822/include -isystem /opt/platformsdk/Win32/MicrosoftVisualStudio2022/VC/Tools/MSVC/14.37.32822/atlmfc/include -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/ucrt -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/winrt -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/um -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/shared -Iupload/defold-rive/include/win32/ -Iupload/defold-rive/include/ -Ibuild/defold-rive/ -Iupload/ -I/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//include -I/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include -I/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//ext/include upload/defold-rive/src/private/renderer_context_opengl.cpp -c -o build/renderer_context_opengl.cpp_10.o
+2 warnings generated.
+clang++ -DDLIB_LOG_DOMAIN="RIVEEXT" -DDDF_EXPOSE_DESCRIPTORS -DDM_PLATFORM_WINDOWS -D_CRT_SECURE_NO_WARNINGS -D_CRT_USE_BUILTIN_OFFSETOF -D_WINSOCK_DEPRECATED_NO_WARNINGS -D__STDC_LIMIT_MACROS -DWINVER=0x0600 -DWIN32 -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -DDM_RIVE_USE_OPENGL -DRIVE_WINDOWS -DRIVE_DESKTOP_GL -target x86_64-pc-win32-msvc -m64 -O2 -g -gcodeview -Wall -Werror=format -fvisibility=hidden -nostdinc++ -fno-exceptions -std=c++17 -fno-rtti -nostdinc++ -isystem /usr/lib/llvm-17/lib/clang/17/include -isystem /opt/platformsdk/Win32/MicrosoftVisualStudio2022/VC/Tools/MSVC/14.37.32822/include -isystem /opt/platformsdk/Win32/MicrosoftVisualStudio2022/VC/Tools/MSVC/14.37.32822/atlmfc/include -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/ucrt -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/winrt -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/um -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/shared -Iupload/defold-rive/include/win32/ -Iupload/defold-rive/include/ -Ibuild/defold-rive/ -Iupload/ -I/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//include -I/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include -I/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//ext/include upload/defold-rive/src/private/renderer_context_webgpu.cpp -c -o build/renderer_context_webgpu.cpp_11.o
+clang++ -DDLIB_LOG_DOMAIN="RIVEEXT" -DDDF_EXPOSE_DESCRIPTORS -DDM_PLATFORM_WINDOWS -D_CRT_SECURE_NO_WARNINGS -D_CRT_USE_BUILTIN_OFFSETOF -D_WINSOCK_DEPRECATED_NO_WARNINGS -D__STDC_LIMIT_MACROS -DWINVER=0x0600 -DWIN32 -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -DDM_RIVE_USE_OPENGL -DRIVE_WINDOWS -DRIVE_DESKTOP_GL -target x86_64-pc-win32-msvc -m64 -O2 -g -gcodeview -Wall -Werror=format -fvisibility=hidden -nostdinc++ -fno-exceptions -std=c++17 -fno-rtti -nostdinc++ -isystem /usr/lib/llvm-17/lib/clang/17/include -isystem /opt/platformsdk/Win32/MicrosoftVisualStudio2022/VC/Tools/MSVC/14.37.32822/include -isystem /opt/platformsdk/Win32/MicrosoftVisualStudio2022/VC/Tools/MSVC/14.37.32822/atlmfc/include -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/ucrt -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/winrt -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/um -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/shared -Iupload/defold-rive/include/win32/ -Iupload/defold-rive/include/ -Ibuild/defold-rive/ -Iupload/ -I/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//include -I/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include -I/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//ext/include upload/defold-rive/src/private/renderer_private.cpp -c -o build/renderer_private.cpp_12.o
+In file included from upload/defold-rive/src/font.cpp:13:
+In file included from upload/defold-rive/include/common/font.h:25:
+In file included from upload/defold-rive/include/defold/renderer.h:20:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/graphics/graphics.h:20:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//include/graphics/graphics_ddf.h:25:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//include/ddf/ddf_math.h:26:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/dlib/vmath.h:18:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/vectormath/cpp/vectormath_aos.h:40:
+/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/vectormath/cpp/../scalar/cpp/vectormath_aos.h:63:11: warning: private field 'd' is not used [-Wunused-private-field]
+   63 |     float d;
+      |           ^
+/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/vectormath/cpp/../scalar/cpp/vectormath_aos.h:607:11: warning: private field 'd' is not used [-Wunused-private-field]
+  607 |     float d;
+      |           ^
+2 warnings generated.
+clang++ -DDLIB_LOG_DOMAIN="RIVEEXT" -DDDF_EXPOSE_DESCRIPTORS -DDM_PLATFORM_WINDOWS -D_CRT_SECURE_NO_WARNINGS -D_CRT_USE_BUILTIN_OFFSETOF -D_WINSOCK_DEPRECATED_NO_WARNINGS -D__STDC_LIMIT_MACROS -DWINVER=0x0600 -DWIN32 -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -DDM_RIVE_USE_OPENGL -DRIVE_WINDOWS -DRIVE_DESKTOP_GL -target x86_64-pc-win32-msvc -m64 -O2 -g -gcodeview -Wall -Werror=format -fvisibility=hidden -nostdinc++ -fno-exceptions -std=c++17 -fno-rtti -nostdinc++ -isystem /usr/lib/llvm-17/lib/clang/17/include -isystem /opt/platformsdk/Win32/MicrosoftVisualStudio2022/VC/Tools/MSVC/14.37.32822/include -isystem /opt/platformsdk/Win32/MicrosoftVisualStudio2022/VC/Tools/MSVC/14.37.32822/atlmfc/include -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/ucrt -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/winrt -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/um -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/shared -Iupload/defold-rive/include/win32/ -Iupload/defold-rive/include/ -Ibuild/defold-rive/ -Iupload/ -I/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//include -I/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include -I/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//ext/include upload/defold-rive/src/res_rive_data.cpp -c -o build/res_rive_data.cpp_13.o
+6 warnings generated.
+clang++ -DDLIB_LOG_DOMAIN="RIVEEXT" -DDDF_EXPOSE_DESCRIPTORS -DDM_PLATFORM_WINDOWS -D_CRT_SECURE_NO_WARNINGS -D_CRT_USE_BUILTIN_OFFSETOF -D_WINSOCK_DEPRECATED_NO_WARNINGS -D__STDC_LIMIT_MACROS -DWINVER=0x0600 -DWIN32 -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -DDM_RIVE_USE_OPENGL -DRIVE_WINDOWS -DRIVE_DESKTOP_GL -target x86_64-pc-win32-msvc -m64 -O2 -g -gcodeview -Wall -Werror=format -fvisibility=hidden -nostdinc++ -fno-exceptions -std=c++17 -fno-rtti -nostdinc++ -isystem /usr/lib/llvm-17/lib/clang/17/include -isystem /opt/platformsdk/Win32/MicrosoftVisualStudio2022/VC/Tools/MSVC/14.37.32822/include -isystem /opt/platformsdk/Win32/MicrosoftVisualStudio2022/VC/Tools/MSVC/14.37.32822/atlmfc/include -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/ucrt -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/winrt -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/um -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/shared -Iupload/defold-rive/include/win32/ -Iupload/defold-rive/include/ -Ibuild/defold-rive/ -Iupload/ -I/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//include -I/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include -I/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//ext/include upload/defold-rive/src/res_rive_model.cpp -c -o build/res_rive_model.cpp_14.o
+In file included from upload/defold-rive/src/res_rive_model.cpp:15:
+In file included from upload/defold-rive/src/res_rive_model.h:16:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/render/render.h:19:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//include/render/material_ddf.h:25:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//include/ddf/ddf_math.h:26:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/dlib/vmath.h:18:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/vectormath/cpp/vectormath_aos.h:40:
+/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/vectormath/cpp/../scalar/cpp/vectormath_aos.h:63:11: warning: private field 'd' is not used [-Wunused-private-field]
+   63 |     float d;
+      |           ^
+/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/vectormath/cpp/../scalar/cpp/vectormath_aos.h:607:11: warning: private field 'd' is not used [-Wunused-private-field]
+  607 |     float d;
+      |           ^
+2 warnings generated.
+clang++ -DDLIB_LOG_DOMAIN="RIVEEXT" -DDDF_EXPOSE_DESCRIPTORS -DDM_PLATFORM_WINDOWS -D_CRT_SECURE_NO_WARNINGS -D_CRT_USE_BUILTIN_OFFSETOF -D_WINSOCK_DEPRECATED_NO_WARNINGS -D__STDC_LIMIT_MACROS -DWINVER=0x0600 -DWIN32 -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -DDM_RIVE_USE_OPENGL -DRIVE_WINDOWS -DRIVE_DESKTOP_GL -target x86_64-pc-win32-msvc -m64 -O2 -g -gcodeview -Wall -Werror=format -fvisibility=hidden -nostdinc++ -fno-exceptions -std=c++17 -fno-rtti -nostdinc++ -isystem /usr/lib/llvm-17/lib/clang/17/include -isystem /opt/platformsdk/Win32/MicrosoftVisualStudio2022/VC/Tools/MSVC/14.37.32822/include -isystem /opt/platformsdk/Win32/MicrosoftVisualStudio2022/VC/Tools/MSVC/14.37.32822/atlmfc/include -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/ucrt -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/winrt -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/um -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/shared -Iupload/defold-rive/include/win32/ -Iupload/defold-rive/include/ -Ibuild/defold-rive/ -Iupload/ -I/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//include -I/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include -I/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//ext/include upload/defold-rive/src/res_rive_scene.cpp -c -o build/res_rive_scene.cpp_15.o
+upload/defold-rive/src/private/renderer_private.cpp:184:17: warning: unused variable 'samples' [-Wunused-variable]
+  184 |             int samples = (int) params.m_DoFinalBlit ? 0 : params.m_BackbufferSamples;
+      |                 ^~~~~~~
+upload/defold-rive/src/res_rive_scene.cpp:39:32: warning: unused variable 'result' [-Wunused-variable]
+   39 |             dmResource::Result result = dmResource::Get(factory, resource->m_DDF->m_Atlas, (void**) &resource->m_TextureSet); // .atlas -> .texturesetc
+      |                                ^~~~~~
+In file included from upload/defold-rive/src/private/renderer_private.cpp:3:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/graphics/graphics_vulkan.h:18:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/graphics/graphics.h:20:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//include/graphics/graphics_ddf.h:25:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//include/ddf/ddf_math.h:26:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/dlib/vmath.h:18:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/vectormath/cpp/vectormath_aos.h:40:
+/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/vectormath/cpp/../scalar/cpp/vectormath_aos.h:63:11: warning: private field 'd' is not used [-Wunused-private-field]
+   63 |     float d;
+      |           ^
+/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/vectormath/cpp/../scalar/cpp/vectormath_aos.h:607:11: warning: private field 'd' is not used [-Wunused-private-field]
+  607 |     float d;
+      |           ^
+In file included from upload/defold-rive/src/res_rive_scene.cpp:15:
+In file included from upload/defold-rive/src/res_rive_scene.h:16:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/gamesys/resources/res_textureset.h:23:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/gamesys/resources/res_texture.h:18:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/graphics/graphics.h:20:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//include/graphics/graphics_ddf.h:25:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//include/ddf/ddf_math.h:26:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/dlib/vmath.h:18:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/vectormath/cpp/vectormath_aos.h:40:
+/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/vectormath/cpp/../scalar/cpp/vectormath_aos.h:63:11: warning: private field 'd' is not used [-Wunused-private-field]
+   63 |     float d;
+      |           ^
+/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/vectormath/cpp/../scalar/cpp/vectormath_aos.h:607:11: warning: private field 'd' is not used [-Wunused-private-field]
+  607 |     float d;
+      |           ^
+3 warnings generated.
+clang++ -DDLIB_LOG_DOMAIN="RIVEEXT" -DDDF_EXPOSE_DESCRIPTORS -DDM_PLATFORM_WINDOWS -D_CRT_SECURE_NO_WARNINGS -D_CRT_USE_BUILTIN_OFFSETOF -D_WINSOCK_DEPRECATED_NO_WARNINGS -D__STDC_LIMIT_MACROS -DWINVER=0x0600 -DWIN32 -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -DDM_RIVE_USE_OPENGL -DRIVE_WINDOWS -DRIVE_DESKTOP_GL -target x86_64-pc-win32-msvc -m64 -O2 -g -gcodeview -Wall -Werror=format -fvisibility=hidden -nostdinc++ -fno-exceptions -std=c++17 -fno-rtti -nostdinc++ -isystem /usr/lib/llvm-17/lib/clang/17/include -isystem /opt/platformsdk/Win32/MicrosoftVisualStudio2022/VC/Tools/MSVC/14.37.32822/include -isystem /opt/platformsdk/Win32/MicrosoftVisualStudio2022/VC/Tools/MSVC/14.37.32822/atlmfc/include -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/ucrt -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/winrt -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/um -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/shared -Iupload/defold-rive/include/win32/ -Iupload/defold-rive/include/ -Ibuild/defold-rive/ -Iupload/ -I/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//include -I/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include -I/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//ext/include upload/defold-rive/src/script_rive.cpp -c -o build/script_rive.cpp_16.o
+3 warnings generated.
+clang++ -DDLIB_LOG_DOMAIN="RIVEEXT" -DDDF_EXPOSE_DESCRIPTORS -DDM_PLATFORM_WINDOWS -D_CRT_SECURE_NO_WARNINGS -D_CRT_USE_BUILTIN_OFFSETOF -D_WINSOCK_DEPRECATED_NO_WARNINGS -D__STDC_LIMIT_MACROS -DWINVER=0x0600 -DWIN32 -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -DDM_RIVE_USE_OPENGL -DRIVE_WINDOWS -DRIVE_DESKTOP_GL -target x86_64-pc-win32-msvc -m64 -O2 -g -gcodeview -Wall -Werror=format -fvisibility=hidden -nostdinc++ -fno-exceptions -std=c++17 -fno-rtti -nostdinc++ -isystem /usr/lib/llvm-17/lib/clang/17/include -isystem /opt/platformsdk/Win32/MicrosoftVisualStudio2022/VC/Tools/MSVC/14.37.32822/include -isystem /opt/platformsdk/Win32/MicrosoftVisualStudio2022/VC/Tools/MSVC/14.37.32822/atlmfc/include -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/ucrt -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/winrt -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/um -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/shared -Iupload/defold-rive/include/win32/ -Iupload/defold-rive/include/ -Ibuild/defold-rive/ -Iupload/ -I/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//include -I/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include -I/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//ext/include upload/defold-rive/src/script_rive_databinding.cpp -c -o build/script_rive_databinding.cpp_17.o
+In file included from upload/defold-rive/src/res_rive_data.cpp:29:
+In file included from upload/defold-rive/src/res_rive_data.h:19:
+In file included from upload/defold-rive/include/defold/renderer.h:20:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/graphics/graphics.h:20:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//include/graphics/graphics_ddf.h:25:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//include/ddf/ddf_math.h:26:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/dlib/vmath.h:18:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/vectormath/cpp/vectormath_aos.h:40:
+/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/vectormath/cpp/../scalar/cpp/vectormath_aos.h:63:11: warning: private field 'd' is not used [-Wunused-private-field]
+   63 |     float d;
+      |           ^
+/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/vectormath/cpp/../scalar/cpp/vectormath_aos.h:607:11: warning: private field 'd' is not used [-Wunused-private-field]
+  607 |     float d;
+      |           ^
+In file included from upload/defold-rive/src/private/renderer_context_opengl.cpp:13:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/graphics/graphics_opengl.h:18:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/graphics/graphics.h:20:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//include/graphics/graphics_ddf.h:25:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//include/ddf/ddf_math.h:26:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/dlib/vmath.h:18:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/vectormath/cpp/vectormath_aos.h:40:
+/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/vectormath/cpp/../scalar/cpp/vectormath_aos.h:63:11: warning: private field 'd' is not used [-Wunused-private-field]
+   63 |     float d;
+      |           ^
+/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/vectormath/cpp/../scalar/cpp/vectormath_aos.h:607:11: warning: private field 'd' is not used [-Wunused-private-field]
+  607 |     float d;
+      |           ^
+2 warnings generated.
+clang++ -DDLIB_LOG_DOMAIN="RIVEEXT" -DDDF_EXPOSE_DESCRIPTORS -DDM_PLATFORM_WINDOWS -D_CRT_SECURE_NO_WARNINGS -D_CRT_USE_BUILTIN_OFFSETOF -D_WINSOCK_DEPRECATED_NO_WARNINGS -D__STDC_LIMIT_MACROS -DWINVER=0x0600 -DWIN32 -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -DDM_RIVE_USE_OPENGL -DRIVE_WINDOWS -DRIVE_DESKTOP_GL -target x86_64-pc-win32-msvc -m64 -O2 -g -gcodeview -Wall -Werror=format -fvisibility=hidden -nostdinc++ -fno-exceptions -std=c++17 -fno-rtti -nostdinc++ -isystem /usr/lib/llvm-17/lib/clang/17/include -isystem /opt/platformsdk/Win32/MicrosoftVisualStudio2022/VC/Tools/MSVC/14.37.32822/include -isystem /opt/platformsdk/Win32/MicrosoftVisualStudio2022/VC/Tools/MSVC/14.37.32822/atlmfc/include -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/ucrt -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/winrt -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/um -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/shared -Iupload/defold-rive/include/win32/ -Iupload/defold-rive/include/ -Ibuild/defold-rive/ -Iupload/ -I/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//include -I/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include -I/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//ext/include build/defold-rive/rive_ddf.cpp -c -o build/rive_ddf.cpp_18.o
+2 warnings generated.
+In file included from build/defold-rive/rive_ddf.cpp:2:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//include/ddf/ddf_math.h:26:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/dlib/vmath.h:18:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/vectormath/cpp/vectormath_aos.h:40:
+/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/vectormath/cpp/../scalar/cpp/vectormath_aos.h:63:11: warning: private field 'd' is not used [-Wunused-private-field]
+   63 |     float d;
+      |           ^
+/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/vectormath/cpp/../scalar/cpp/vectormath_aos.h:607:11: warning: private field 'd' is not used [-Wunused-private-field]
+  607 |     float d;
+      |           ^
+2 warnings generated.
+upload/defold-rive/src/script_rive_databinding.cpp:271:9: warning: unused variable 'top' [-Wunused-variable]
+  271 |     int top = lua_gettop(L);
+      |         ^~~
+upload/defold-rive/src/script_rive_databinding.cpp:327:12: warning: unused function 'SetListener' [-Wunused-function]
+  327 | static int SetListener(lua_State* L)
+      |            ^~~~~~~~~~~
+In file included from upload/defold-rive/src/script_rive_databinding.cpp:18:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/gameobject/script.h:26:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/gameobject/gameobject.h:23:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/dlib/vmath.h:18:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/vectormath/cpp/vectormath_aos.h:40:
+/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/vectormath/cpp/../scalar/cpp/vectormath_aos.h:63:11: warning: private field 'd' is not used [-Wunused-private-field]
+   63 |     float d;
+      |           ^
+/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/vectormath/cpp/../scalar/cpp/vectormath_aos.h:607:11: warning: private field 'd' is not used [-Wunused-private-field]
+  607 |     float d;
+      |           ^
+4 warnings generated.
+In file included from upload/defold-rive/src/script_rive.cpp:20:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/sdk.h:19:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/engine/extension.h:20:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/engine/extension.hpp:21:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/gameobject/gameobject.h:23:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/dlib/vmath.h:18:
+In file included from /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/vectormath/cpp/vectormath_aos.h:40:
+/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/vectormath/cpp/../scalar/cpp/vectormath_aos.h:63:11: warning: private field 'd' is not used [-Wunused-private-field]
+   63 |     float d;
+      |           ^
+/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include/dmsdk/vectormath/cpp/../scalar/cpp/vectormath_aos.h:607:11: warning: private field 'd' is not used [-Wunused-private-field]
+  607 |     float d;
+      |           ^
+2 warnings generated.
+/usr/bin/ar rcs /tmp/job11102295337371447311/build/RiveExt_19.lib build/atlas.cpp_0.o build/bones.cpp_1.o build/factory.cpp_2.o build/tess_renderer.cpp_3.o build/vertices.cpp_4.o build/comp_rive.cpp_5.o build/comp_rive_databinding.cpp_6.o build/comp_rive_statemachine.cpp_7.o build/extension.cpp_8.o build/font.cpp_9.o build/renderer_context_opengl.cpp_10.o build/renderer_context_webgpu.cpp_11.o build/renderer_private.cpp_12.o build/res_rive_data.cpp_13.o build/res_rive_model.cpp_14.o build/res_rive_scene.cpp_15.o build/script_rive.cpp_16.o build/script_rive_databinding.cpp_17.o build/rive_ddf.cpp_18.o
+windres -i /var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//lib/x86_64-win32/engine.rc -O coff -o build/dmengine.res
+clang++ -DDLIB_LOG_DOMAIN="UNKNOWN" -DDDF_EXPOSE_DESCRIPTORS -DDM_PLATFORM_WINDOWS -D_CRT_SECURE_NO_WARNINGS -D_CRT_USE_BUILTIN_OFFSETOF -D_WINSOCK_DEPRECATED_NO_WARNINGS -D__STDC_LIMIT_MACROS -DWINVER=0x0600 -DWIN32 -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -DDM_RIVE_USE_OPENGL -DRIVE_WINDOWS -DRIVE_DESKTOP_GL -target x86_64-pc-win32-msvc -m64 -O2 -g -gcodeview -Wall -Werror=format -fvisibility=hidden -nostdinc++ -fno-exceptions -std=c++17 -fno-rtti -nostdinc++ -isystem /usr/lib/llvm-17/lib/clang/17/include -isystem /opt/platformsdk/Win32/MicrosoftVisualStudio2022/VC/Tools/MSVC/14.37.32822/include -isystem /opt/platformsdk/Win32/MicrosoftVisualStudio2022/VC/Tools/MSVC/14.37.32822/atlmfc/include -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/ucrt -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/winrt -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/um -isystem /opt/platformsdk/Win32/WindowsKits/10/Include/10.0.20348.0/shared -I/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//include -I/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//sdk/include -I/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//ext/include build/main.cpp -c -o build/main_tmp20.o
+clang++ -o build/dmengine.exe -target x86_64-pc-win32-msvc -m64 -O2 -g -fuse-ld=lld -Wl,/entry:mainCRTStartup -Wl,/safeseh:no -L/tmp/job11102295337371447311/build -L/tmp/job11102295337371447311/upload/defold-rive/lib/x86_64-win32 -lOpenGL32 -ldelayimp -lUser32 -lshell32 -lXinput9_1_0 -ldinput8 -ldxguid -lWS2_32 -liphlpapi -lDbgHelp -lAdvAPI32 -lPsapi -lGdi32 -lole32 -lrivetess -lrive -ltess2 -lsheenbidi -lyoga -lharfbuzz -lRiveExt_19 -lriveshaders -lrive_renderer -L/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//lib/x86_64-win32 -L/var/extender/sdk/1aafd0a262ff40214ed7f51302d92fa587c607ef/defoldsdk//ext/lib/x86_64-win32 -L/opt/platformsdk/Win32/MicrosoftVisualStudio2022/VC/Tools/MSVC/14.37.32822/lib/x64 -L/opt/platformsdk/Win32/MicrosoftVisualStudio2022/VC/Tools/MSVC/14.37.32822/atlmfc/lib/x64 -L/opt/platformsdk/Win32/WindowsKits/10/Lib/10.0.20348.0/ucrt/x64 -L/opt/platformsdk/Win32/WindowsKits/10/Lib/10.0.20348.0/um/x64 -llibengine -llibengine_service -llibmbedtls -llibzip -llibprofile -llibprofilerext -llibprofiler_remotery -llibrecord -llibgameobject -llibddf -llibfont -llibresource -llibgamesys -llibgamesys_model -llibgamesys_rig -llibscript_box2d_defold -llibgraphics -llibgraphics_transcoder_basisu -llibbasis_transcoder -llibphysics -llibBulletDynamics -llibBulletCollision -llibplatform -llibLinearMath -llibbox2d_defold -llibrender -llibrender_font_default -llibscript -llibluajit-5.1 -llibextension -llibhid -llibinput -llibparticle -llibrig -llibdlib -llibimage -llibglfw3 -llibgui -llibcrashext -llibliveupdate -llibsound -lvpx -llibdecoder_wav -llibdecoder_ogg build/main_tmp20.o build/dmengine.res
+lld-link: warning: Cannot use debug info for 'vpx.lib(vpx_src_vpx_image.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vpx_src_vpx_codec.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vpx_src_vpx_encoder.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vp8_vp8_cx_iface.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vpx_mem_vpx_mem.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vp8_common_rtcd.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vpx_dsp_vpx_dsp_rtcd.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vpx_scale_vpx_scale_rtcd.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vp8_encoder_onyx_if.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vp8_encoder_x86_vp8_quantize_sse2.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vp8_encoder_x86_vp8_quantize_ssse3.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vp8_encoder_mcomp.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vp8_encoder_x86_quantize_sse4.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vp8_common_x86_vp8_asm_stubs.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vpx_dsp_x86_vpx_asm_stubs.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vpx_dsp_x86_vpx_subpixel_8t_intrin_ssse3.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vpx_dsp_x86_vpx_subpixel_8t_intrin_avx2.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vpx_dsp_intrapred.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vpx_dsp_x86_variance_sse2.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vpx_dsp_x86_variance_avx2.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vpx_dsp_x86_loopfilter_sse2.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vpx_dsp_x86_loopfilter_avx2.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vpx_dsp_sad.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vpx_dsp_x86_sad_avx2.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vpx_dsp_x86_sad4d_avx2.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vpx_dsp_vpx_convolve.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vpx_scale_generic_yv12extend.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vpx_scale_generic_yv12config.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vp8_common_mbpitch.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vp8_encoder_bitstream.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vp8_common_vp8_loopfilter.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vp8_common_postproc.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vp8_encoder_vp8_quantize.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vp8_encoder_pickinter.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vp8_encoder_lookahead.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vp8_encoder_denoising.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vp8_common_vp8_skin_detection.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vp8_common_alloccommon.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vp8_encoder_firstpass.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vpx_dsp_psnr.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vpx_scale_generic_vpx_scale.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vp8_encoder_ratectrl.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vp8_encoder_segmentation.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vp8_common_reconintra.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vp8_encoder_encodeframe.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vp8_encoder_ethreading.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vp8_encoder_picklpf.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vp8_encoder_temporal_filter.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vp8_common_x86_filter_x86.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vp8_common_entropy.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vpx_dsp_variance.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vp8_common_treecoder.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vp8_encoder_boolhuff.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vp8_common_findnearmv.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vp8_encoder_encodemv.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vp8_common_entropymode.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vp8_common_x86_loopfilter_x86.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vpx_dsp_add_noise.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vp8_common_mfqe.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vp8_common_quant_common.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vp8_encoder_encodeintra.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vp8_common_reconintra4x4.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vp8_encoder_rdopt.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vp8_common_extend.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vp8_encoder_x86_denoising_sse2.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vp8_common_reconinter.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vpx_dsp_skin_detection.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vp8_common_generic_systemdependent.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vp8_encoder_encodemb.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vp8_common_setupintrarecon.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vp8_common_swapyv12buffer.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vp8_common_entropymv.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vpx_scale_generic_gen_scalers.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vp8_common_x86_idct_blk_sse2.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vp8_common_idctllm.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vp8_encoder_tokenize.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vp8_common_modecont.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vpx_dsp_deblock.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vp8_encoder_x86_vp8_enc_stubs_sse2.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vp8_encoder_treewriter.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vp8_encoder_modecosts.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
+
+lld-link: warning: Cannot use debug info for 'vpx.lib(vp8_common_blockd.obj)' [LNK4099]
+>>> failed to load reference 'C:\repos\defold\share\ext\vpx\tmp\x64\Release\vpx\vpx.pdb': No such file or directory
